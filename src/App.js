@@ -8,8 +8,8 @@ function App() {
   return(
     <BrowserRouter>
       <Switch>
-        <Route exact path="/home" component={Home}/>
-        <Route exact path="/aboutCV" component={About}></Route>
+        <Route exact path="/my-cv" component={Home}/>
+        <Route exact path="/my-cv/about" component={About}></Route>
       </Switch>
     </BrowserRouter>
   )

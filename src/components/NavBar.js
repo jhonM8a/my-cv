@@ -6,7 +6,7 @@ function NavBar(props){
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
                 <div className="container">
-                    <Link className="navbar-brand" to="/homeCV">Jhon M. Ochoa L.</Link>
+                    <Link className="navbar-brand" to="/my-cv">Jhon M. Ochoa L.</Link>
                     <button className="navbar-toggler" type="button" onClick={props.handleOnclick} data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                     </button>
@@ -20,7 +20,7 @@ function NavBar(props){
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/aboutCV">About me</Link>
+                                <Link className="nav-link" to="/my-cv/about">About me</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Trajectory</a>
