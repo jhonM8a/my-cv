@@ -1,8 +1,8 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import Cover from '../components/CoverPhotography'
-import Footer from '../components/Footer'
-class Home extends React.Component{
+import ContentAbount from '../components/ContentAbount'
+
+class About extends React.Component{
     state = {
         showCollpase: false,
         count:1,
@@ -19,16 +19,16 @@ class Home extends React.Component{
         }else{
             this.setState({showCollpase:false})
         }
-    }
+    }    
     render(){
         return(
             <div>
                 <NavBar showCollpase={this.state.showCollpase} handleOnclick={this.handleOnclick}></NavBar>
-                <Cover></Cover>
-                <Footer></Footer>
+                <ContentAbount></ContentAbount>
             </div>
         )
     }
+    
 }
 
-export default Home
+export default About
