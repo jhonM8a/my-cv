@@ -10,12 +10,12 @@ function Footer(props) {
             Info contact
           </h2>
           <div className="row">
-            <div className="col-xs-12 col-md-8">
+            <div className="col-xs-12 col-md-8 center-block">
               <li>Email: jhon.mario.8a@gmail.com</li>
               <li>Ubicación: Cali - Colombia</li>
               <li>Tel: (+57) 3116192217</li>
             </div>
-            <div className="col-xs-12 col-md-4">
+            <div className="col-xs-12 col-md-4 center-block">
               <li>
                 Linkedin:{" "}
                 <Link to="https://www.linkedin.com/in/jhon-mario-ochoa-lemus-3132b716a">
