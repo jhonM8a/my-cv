@@ -35,12 +35,12 @@ function NavBar(props) {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/my-cv/about">
-                  About me
+                  Acerca de mí
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/my-cv/trayectory">
-                  Trajectory
+                  Trayectoria
                 </Link>
               </li>
             </ul>

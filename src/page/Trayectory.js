@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import ContentTrayectory from "../components/ContentTrayectory";
 
 class Trayectory extends React.Component {
   state = {
@@ -26,6 +27,7 @@ class Trayectory extends React.Component {
           showCollpase={this.state.showCollpase}
           handleOnclick={this.handleOnclick}
         ></NavBar>
+        <ContentTrayectory></ContentTrayectory>
       </div>
     );
   }
